@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Homecomp {
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20rem;
+  max-height: 80rem;
+}
+.socialmedia {
+  position: absolute;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  top: 50%;
+  left: 0px;
+  transform: translate(0, -50%);
+}
+.socialMediaIcon {
+  margin: 4px 6px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  color: #333333;
+}
+.socialMediaIcon:hover {
+  color: #7843e9;
+  transition: 0.5s ease-in-out;
+  background-color: rgb(218, 215, 215);
+  border-radius: 8px;
+}
+
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.maincontent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.maincontent div h1 {
+  margin-bottom: 64px;
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+}
+.maincontent div p {
+  text-align: center;
+  width: 65%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.maincontent div a {
+  color: white;
+  background-color: #7843e9;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 78px;
+  letter-spacing: 1px;
+  padding: 16px 54px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.maincontent div a:hover {
+  transform: translate(0, -5px);
+  transition: 0.3s ease-in-out;
+}
+.mouse {
+  position: absolute;
+  border: 2px solid #333333;
+  width: 30px;
+  height: 50px;
+  border-radius: 60px;
+  top: 89%;
+  &::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 40px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 40px;
+  }
+}

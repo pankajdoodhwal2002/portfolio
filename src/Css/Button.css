@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.resumebutton1 {
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+}
+.resumebutton1 a {
+  text-decoration: none;
+  color: white;
+  background-color: #7843e9;
+  padding: 14px 54px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.resumebutton1 a:hover {
+  bottom: 55px;
+  transition: 0.3s ease-in-out;
+}

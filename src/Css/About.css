@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.aboutme {
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+.aboutme1 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+}
+.aboutmeintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutmeintro h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.underline {
+  margin-top: 6px;
+  width: 32px;
+  border: 4px solid #7843e9;
+  border-radius: 8px;
+}
+.aboutsummery {
+  margin-top: 32px;
+  text-align: center;
+  width: 75%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 64px;
+}
+.introskills {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+.intro {
+  width: 45%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.introheading {
+  margin: 8px;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.intropara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstpara,
+.middlepara,
+.lastpara {
+  margin: 12px;
+  font-size: 18px;
+  color: #666666;
+}
+.lastpara {
+  margin-bottom: 64px;
+}
+.intropara span,
+a {
+  font-weight: 700;
+}
+
+.Projectbutton {
+  margin: 12px;
+  padding: 16px 54px;
+  color: white;
+  background-color: #7843e9;
+  text-decoration: none;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.Projectbutton:hover {
+  transform: translate(0, -5px);
+  transition: 0.3s ease-in-out;
+}
+.skills {
+  width: 45%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: salmon; */
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.skillsheading {
+  margin: 12px;
+  margin-bottom: 16px;
+}
+.techskilldiv {
+  margin: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.techskilldiv h5 {
+  padding: 12px 32px;
+  background-color: #e7e7e7;
+  margin: 6px;
+  border-radius: 16px;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #666666;
+}
